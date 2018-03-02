@@ -18,16 +18,16 @@ pip install slackclient
 ```
 #### Setup Slack Workspace
 Next head over [here](https://slack.com/create) to create a Slack workspace to set your bot up in. Go through the sign up flow for making an account
-and workspace. 
+and workspace.
 
 #### Setup Slack App and Bot Integration
 Once you finish making a workspace, go [here](https://api.slack.com/apps) and click create new app.
 
 ![Create New App](img/create_app.png)
 
-Once you've created the app, you'll need to add a bot user to the app so users can converse with it. On the left toolbar, click `Bot Users`, fill in the details, and hit add bot.
+Once you've created the app, fill out the basic information on the bottom of the `Basic Information` section. Then, you'll need to add a bot user to the app so users can converse with it. On the left toolbar, click `Bot Users`, fill in the details, and hit add bot.
 
-Now you'll be able to install the app to your workspace. On the left toolbar, hit `Install App` and follow the flow to add the app to your workspace. Once completed, you should be able to see your OAuth tokens when are in the `Install App` section of the toolbar. 
+Now you'll be able to install the app to your workspace. On the left toolbar, hit `Install App` and follow the flow to add the app to your workspace. Once completed, you should be able to see your OAuth tokens when are in the `Install App` section of the toolbar.
 
 Now you visit your Slack in a new tab at `https://yourslack.slack.com` you should be able to see your app under the Apps header in the left toolbar.
 
@@ -51,7 +51,7 @@ This will start the bot and you should see a corresponding message in your termi
 ## Expanding Functionality
 
 #### Slack API
-Head over [here](https://api.slack.com/methods) to see all the possible methods you can use. Click on each method to see what arguements and permission scope it requires. 
+Head over [here](https://api.slack.com/methods) to see all the possible methods you can use. Click on each method to see what arguements and permission scope it requires.
 
 When you find a method in the API you want to use, you can add it to your code in the following way. Consider the API method `channels.info` [here](https://api.slack.com/methods/channels.info) that gives a list of channels in the Slack. These are the arguments listed on the API page.
 
