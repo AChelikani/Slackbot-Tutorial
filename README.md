@@ -66,5 +66,9 @@ def get_channel_info(self, channel):
 ```
 Any API call you want to make, you can simple use `sc.api_call` and just provide it with the API method as well as values for at least all required arguments.
 
+Here are some of the other things you can add to your Slack bot (all setup details found in the admin panel of your Slack):
+
+![extra functionality](img/extras.png)
+
 
 Happy hacking!

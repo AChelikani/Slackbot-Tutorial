@@ -6,7 +6,7 @@ BOT_ACCESS_TOKEN = config.BOT_ACCESS_TOKEN
 class SlackBot(object):
     '''
     This is a wrapper for the slackclient library that you can use if you find
-    helpful. Add methods as you see fit. Only an bot access token that starts
+    helpful. Add methods as you see fit. Only a bot access token that starts
     with xoxb needs to be provided as an input argument.
     '''
     def __init__(self, access_token):
